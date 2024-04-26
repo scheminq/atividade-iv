@@ -1,0 +1,24 @@
+<script>
+
+
+// idade >= 18, está na lista OU possui ingresso VIP
+// Ter idade igual ou superior a 18 anos.Estar na lista de convidados OU possuir um ingresso VIP.
+// Se todas as condições forem atendidas, imprima "Acesso concedido!". Caso contrário, imprima "Desculpe, você não pode acessar a festa."
+
+let idade = prompt("Insira sua idade");
+let lista = prompt("Você está na lista de convidados?");
+    encerrar = "não";
+let listaVIP = prompt("Você está na lista VIP?");
+
+if (idade >= 18 || lista == "sim" || listaVIP == "sim")
+{
+    alert("Acesso concedido!");
+}
+else if (idade >= 18 || lista != "sim" || listaVIP != "sim")
+{
+    alert("Desculpe, você não pode acessar a festa.")
+}
+
+
+
+</script>
